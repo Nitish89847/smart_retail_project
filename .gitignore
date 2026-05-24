@@ -1,0 +1,36 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.sqlite3
+*.log
+.env
+venv/
+env/
+.venv/
+staticfiles/
+media/
+ml_models/*.pkl
+ml_models/*.joblib
+
+# Node / React
+node_modules/
+dist/
+.DS_Store
+*.local
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
