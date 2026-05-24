@@ -3,6 +3,8 @@ Management command: python manage.py seed_data
 Seeds demo data ONLY for the admin account.
 New users start with a completely empty store.
 """
+
+# depends on all apps to create a realistic dataset for the admin user, but does not affect other users who register later. This way we can have a rich demo store for the admin while ensuring new users start fresh.
 import random, math
 from datetime import date, timedelta
 from django.core.management.base import BaseCommand
